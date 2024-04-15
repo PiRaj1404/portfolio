@@ -11,4 +11,8 @@ export const personalData = {
   instagram: 'https://www.instagram.com/piyushrajkarne/',
   leetcode: "https://leetcode.com/piraj",
   resume: "https://drive.google.com/file/d/1AyHLfgCxGOm7mfotEyescy6KkNv5mqp4/"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6cc1e1aa6396631604313439bd69b37a4951d8e4
