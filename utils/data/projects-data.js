@@ -12,7 +12,7 @@ export const projectsData = [
         tools: ['Pytorch', 'Hugging Face', 'Python', 'Scikit-Learn', 'Pandas', 'Numpy'],
         role : '',
         code: '',
-        demo: '',
+        demo: 'https://huggingface.co/datasets/rajkarne/news-summarization',
         image: realEstate,
     },
     {
@@ -22,7 +22,7 @@ export const projectsData = [
         tools: ['Python', 'Flask', 'MVC', 'HTML', 'Javascript'],
         role : '',
         code: '',
-        demo: '',
+        demo: 'https://github.com/PiRaj1404/AutoVisionSolver',
         image: travel,
     },
     {
@@ -32,7 +32,7 @@ export const projectsData = [
         tools: ['Python', 'Scikit-learn', 'Matplotlib', 'Numpy', 'Pandas'],
         role : '',
         code: '',
-        demo: '',
+        demo: 'https://github.com/PiRaj1404/Customer-churn-Analysis',
         image: crefin,
     },
     {
@@ -42,7 +42,7 @@ export const projectsData = [
         tools: ['Python', 'Socket' ],
         role : '',
         code: '',
-        demo: '',
+        demo: 'https://github.com/PiRaj1404/IRC',
         image: ayla,
         
     }
