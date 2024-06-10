@@ -4,8 +4,29 @@ import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
+    
     {
         id: 1,
+        name: 'News Summarizer',
+        description: 'Fine-tuned a T5 Large Language Model (LLM) for news summarization with PyTorch and Hugging Face transformers, achieving an average ROUGE score of 14.82% in the final epoch.Reduced training loss from 1.5949 to 1.4343 and validation loss to 1.3523 by implementing a summarization pipeline with the fine-tuned T5 model, ensuring high-quality summary generation.',
+        tools: ['Pytorch', 'Hugging Face', 'Python', 'Scikit-Learn', 'Pandas', 'Numpy'],
+        role : '',
+        code: '',
+        demo: '',
+        image: realEstate,
+    },
+    {
+        id: 2,
+        name: 'AutoVisionSolver',
+        description: 'Architected a Flask web application using MVC architecture that leverages Cloud Vision and Generative AI to solve multilingual image-based math problems, streamlining academic research and education processes.Implemented Docker containers to streamline deployment process, ensuring consistency across diverse environments.',
+        tools: ['Python', 'Flask', 'MVC', 'HTML', 'Javascript'],
+        role : '',
+        code: '',
+        demo: '',
+        image: travel,
+    },
+    {
+        id: 3,
         name: 'Customer Churn Analysis',
         description: "Preprocessed data using scikit-learn in Python for feature normalization and one-hot encoding. Visualized model performance with confusion matrices, employing various ML algorithms to achieve 96.5% accuracy.",
         tools: ['Python', 'Scikit-learn', 'Matplotlib', 'Numpy', 'Pandas'],
@@ -15,29 +36,9 @@ export const projectsData = [
         image: crefin,
     },
     {
-        id: 2,
-        name: 'Farm Land Area Calculator',
-        description: 'Devised an Android app using Flutter to calculate farm land area and perimeter through perimeter walks and metrics conversion. Integrated Google Maps for real-time path tracking, resulting in over 1000 active users.',
-        tools: ['Flutter', "Google Maps"],
-        role : '',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'Hydroponics',
-        description: 'Built an automated Arduino-driven hydroponics system, facilitating daily fodder production for over 20 cattle, using corn and wheat; reduced feed costs by 15%, and enhanced milk quality.',
-        tools: ['Arduino Uno', 'Breadboard', 'Relay', 'Arduino Software'],
-        role : '',
-        code: '',
-        demo: '',
-        image: realEstate,
-    },
-    {
         id: 4,
         name: 'Internet Relay Chat',
-        description: "Built Python-based IRC client-server app with advanced socket programming and TCP/IP. Implemented multithreaded server architecture, boosting message delivery by 30% for real-time chat.",
+        description: "Developed a Python-based Internet Relay Chat (IRC) client-server application with advanced socket programming and TCP/IP protocols, featuring a distributed, multithreaded server architecture that enhanced message delivery speeds, thus improving real-time chat experiences.",
         tools: ['Python', 'Socket' ],
         role : '',
         code: '',
