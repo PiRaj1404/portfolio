@@ -10,5 +10,5 @@ export const personalData = {
   github: 'https://github.com/PiRaj1404',
   instagram: 'https://www.instagram.com/piyushrajkarne/',
   leetcode: "https://leetcode.com/piraj",
-  resume: "https://drive.google.com/file/d/1gFxShGww98AQ2g8kymMGQ937mdioPjIV/view"
+  resume: "https://drive.google.com/file/d/1nwf-rKyHvFVMLEAdgIEEkBdhAltdsOMu/"
 }
